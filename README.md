@@ -1,3 +1,7 @@
+<h1> A concept design of a web page for a friend who owns a carpentry company </h1>
+<h2> Language: Javascript, Package: React, Plug In's: Bootstrap (for text only), Awesome Slider (for picture galleries) </h2>
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

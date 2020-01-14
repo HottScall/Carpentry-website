@@ -7,25 +7,33 @@ class Navbar extends React.Component {
     return (
       <div className="navbar">
         <ul id="nav">
-          <img id="logo" src={Logo} alt="logo" />
+          <img align="left" id="logo" src={Logo} alt="logo" />
           <li>
-            <h1>L.A Sadler Carpentry</h1>
+            <h3>
+              <a href="#">Home</a>
+            </h3>
           </li>
           <li>
-            <a href="#">Home</a>
+            <h3>
+              <a href="#">About Us</a>
+            </h3>
           </li>
           <li>
-            <a href="#">About Us</a>
+            <h3>
+              <a href="#">Projects</a>
+            </h3>
           </li>
           <li>
-            <a href="#">Projects</a>
+            <h3>
+              <a href="#">Testimonials</a>
+            </h3>
           </li>
           <li>
-            <a href="#">Testimonials</a>
+            <h3>
+              <a href="#">Contact Us</a>
+            </h3>
           </li>
-          <li>
-            <a href="#">Contact Us</a>
-          </li>
+          <img align="right" id="logo" src={Logo} alt="logo" />
         </ul>
       </div>
     );
